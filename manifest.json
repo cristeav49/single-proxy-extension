@@ -1,0 +1,19 @@
+{
+  "name": "CactusVPN"
+  ,"version": "0.0.1"
+  ,"manifest_version": 2
+  ,"description": "cycle through your proxy settings"
+  ,"icons": { "128": "asset/image/tunnel_switch.png" }
+  ,"background": {
+    "page" : "asset/html/background.html"
+  }
+  ,"options_page": "asset/html/options.html"
+  ,"permissions": [
+    "proxy", "tabs", "http://*/*", "https://*/*" 
+  ]
+  ,"browser_action": {
+      "default_title": "Click to change the proxy"
+      ,"default_icon":"asset/image/direct.png"
+  }
+  ,"homepage_url":"https://github.com/cristeav49/single-proxy-extension"
+}
